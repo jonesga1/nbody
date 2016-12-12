@@ -10,6 +10,3 @@
 -9.000e11 0               0  -97500   1e24 mars.png
  0.000    9e11       -97500       0   1e24 mars.png
  0.000   -9e11        97500       0   1e24 mars.png
-
-Creator of universe: Rohan Kapadia, COS 126, Spring 2004
-10 dancing bodies
