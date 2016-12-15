@@ -1,0 +1,11 @@
+## Final Answers
+
+1. My code to read the files focuses on essentially checking each line of the text file and seeing if it's blank or contains nonsense characters. If it finds a blank line or nonsense it just skips them and only reads the lines of the code which actually contains relevant information. The working version does something similar is that it selects a range based on where the 'end' of the range would be which is a nonsense character, as the file already checks for blanks.
+
+2. My code and the working version's code almost do the same thing. The bodies have functions for calculating the forces and drawing their positions. The initializer takes in the information slightly differently in a string and breaking it up as opposed to breaking it up before hand, but it's very similar. Force calculations are almost identical but mine are a bit clunky in the amount of #'s they use.
+
+3. The advantages of using a seperate universe class is that you could keep all of the drawing code out of the 'nbody.rb' as much as possible, and it's easy to add functionality to the universe as you'd just need to add new functions. It'd also be easy to customize the universe based on all sorts of data that could be put in. Some possible disadvantages being that everything almost relies on this universe to work and it may be difficult to pinpoint exactly where a problem is when the code is so layered with planets > universe. 
+
+4. Perhaps the most interesting difference I see is the usage of a universe class. I think it makes the code a lot more structured though it's not something I currently prefer personally. I do most of my drawing logic and method calling in the nbody file itself as it's easy to take objects and tell them what to do right then in there. 
+
+5. I think my coding strengths personally are being able to logic out problems in code easily and see where most errors are coming from. I like being able to write if/while statements and figure out what needs to happen to make them work. Something I'd say I'm weak at would be usage of objects. I'm never quite sure when I should make a function just in the code itself or add it as functionality to the object. It makes for messy and a bit repetetive code at times. 
